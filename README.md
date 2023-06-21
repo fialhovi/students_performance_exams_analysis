@@ -22,7 +22,7 @@ Todo o projeto foi desenvolvido com Python e com as bibliotecas Pandas, NumPy e 
 
 # **Análise dos dados**
 
-## 🔬 **Análise univariada**
+## 📊 **Análise univariada**
 
 Aqui, vamos analisar cada variável de modo a entendermos quais são as características mais frequentes.
 
@@ -54,11 +54,25 @@ Também é importante notar que os grupos F e G não aparecem em nossa amostra.
 
 ![parents](https://github.com/fialhovi/students_performance_exams_analysis/assets/104800356/bbdee83b-4d87-45a9-a0c6-bea5c1727db3)
 
-**4. Mais da metade dos estudantes recebe um almoço normal, mas preocupa analisar que aproximadamente 400 estudantes recebem um almoço reduzido ou sequer almoçam**
+**4. Mais da metade dos estudantes recebe um almoço normal, mas preocupa analisar que aproximadamente 355 estudantes recebem um almoço reduzido ou sequer almoçam**
 
 ![lunch](https://github.com/fialhovi/students_performance_exams_analysis/assets/104800356/c031b07d-bc50-4f9f-872e-d4ca9f206c05)
 
-**5. Mais de 60% dos estudantes não frequentam o preparatório para o teste**
+**5. Mais de 60% dos estudantes não realizaram o curso preparatório para o teste**
 
 ![test](https://github.com/fialhovi/students_performance_exams_analysis/assets/104800356/a6b7c0be-f6e7-4794-ac54-43aeac6d7115)
+
+**6. A maior parte das notas de Matemática (_Math_) se concentraram entre 50 e 80, com uma média de 66**
+
+![math](https://github.com/fialhovi/students_performance_exams_analysis/assets/104800356/890c1a03-7745-4c65-b2d0-c03ff69d6535)
+
+**7. A maior parte das notas de Leitura (_Reading_) se concentraram entre 50 e 80, com uma média de 69**
+
+![reading](https://github.com/fialhovi/students_performance_exams_analysis/assets/104800356/7e01fc17-6d0b-402f-84d7-5072c502a0ab)
+
+**8. A maior parte das notas de Escrita (_Writing_) se concentraram entre 50 e 80, com uma média de 68**
+
+![writing](https://github.com/fialhovi/students_performance_exams_analysis/assets/104800356/2ca52750-8220-4b39-840b-f96953c39156)
+
+## 📈 **Análise multivariada**
 
