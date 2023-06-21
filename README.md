@@ -4,11 +4,11 @@
 
 ## 🔎 **Sobre o projeto**
 
-O objetivo deste projeto é informar as descobertas feitas durante as análises uni e multivariadas da performance de 1000 estudantes norte-americanos em três exames, Matemática (_Math_), Leitura (_Reading_) e Escrita (_Writing_), buscando entender os seus perfis, analisando as suas pontuações, e as variáveis que podem ter alguma relação com os seus desempenhos.
+O objetivo deste projeto é informar as descobertas feitas durante as análises uni e multivariadas da performance de 1000 estudantes norte-americanos em três exames, Matemática (_Math_), Leitura (_Reading_) e Escrita (_Writing_), buscando entender os seus perfis, analisando as suas pontuações e as variáveis que podem ter alguma relação com os seus desempenhos.
 
 ## 📄 **Data source**
 
-O arquivo CSV utilizado está disponível neste repositório e pode ser baixado na plataforma Kaggle a partir do seguinte [_link_](https://www.kaggle.com/datasets/spscientist/students-performance-in-exams). Infelizmente, os dados são fictícios, por isso, foram utilizados apenas com o propósito de praticar.
+O arquivo CSV utilizado está disponível neste repositório e pode ser baixado na plataforma Kaggle a partir do seguinte [_link_](https://www.kaggle.com/datasets/spscientist/students-performance-in-exams). Infelizmente, os dados são fictícios, não nos permitindo trazer interpretações para a vida real.
 
 Todo o projeto foi desenvolvido com Python e com as bibliotecas Pandas, NumPy e Seaborn.
 
@@ -17,8 +17,8 @@ Todo o projeto foi desenvolvido com Python e com as bibliotecas Pandas, NumPy e 
 * O _dataset_ possui 1000 linhas e 8 colunas.
 * Não há valores nulos ou linhas duplicadas.
 * Possui apenas 2 _dtypes_: _object_ e _int64_.
-* As palavras nos nomes das colunas vieram separadas por espaços e foram substituídas por _underscore_.
-* A mediana e a média das notas estão retornando valores muito próximos, não havendo _outliers_ a serem tratados.
+* As palavras nos nomes das colunas vieram separadas por espaços, que foram substituídos por _underscore_.
+* A mediana e a média das notas estão retornando valores muito próximos, o que indica, a princípio, que há poucos ou nenhum _outlier_ a ser tratado.
 
 # **Análise dos dados**
 
