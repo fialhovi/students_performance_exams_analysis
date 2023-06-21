@@ -54,4 +54,11 @@ Também é importante notar que os grupos F e G não aparecem em nossa amostra.
 
 ![parents](https://github.com/fialhovi/students_performance_exams_analysis/assets/104800356/bbdee83b-4d87-45a9-a0c6-bea5c1727db3)
 
-**4. **
+**4. Mais da metade dos estudantes recebe um almoço normal, mas preocupa analisar que aproximadamente 400 estudantes recebem um almoço reduzido ou sequer almoçam**
+
+![lunch](https://github.com/fialhovi/students_performance_exams_analysis/assets/104800356/c031b07d-bc50-4f9f-872e-d4ca9f206c05)
+
+**5. Mais de 60% dos estudantes não frequentam o preparatório para o teste**
+
+![test](https://github.com/fialhovi/students_performance_exams_analysis/assets/104800356/a6b7c0be-f6e7-4794-ac54-43aeac6d7115)
+
