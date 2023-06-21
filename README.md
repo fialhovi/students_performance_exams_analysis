@@ -2,9 +2,24 @@
 
 # EDA Students performance exams
 
-Esta análise exploratória foi desenvolvida utilizando dados fictícios sobre a performance de 1000 estudantes em três exames, Matemática (Math), Leitura (Reading) e Escrita (Writing). O arquivo CSV está disponível neste repositório e se encontra na plataforma Kaggle a partir do seguinte [link](https://www.kaggle.com/datasets/spscientist/students-performance-in-exams).
+## 🔎 **Sobre o projeto**
 
-Minha motivação foi entender o perfil dos estudantes, analisando as suas pontuações e as variáveis que podem ter alguma relação com os seus desempenhos. Além disso, este projeto foi essencial para eu poder praticar a análise de dados com Python (Pandas, NumPy e Seaborn) em análises uni, bi e multivariadas.
+O objetivo deste projeto é informar as descobertas feitas durante as análises uni e multivariadas da performance de 1000 estudantes norte-americanos em três exames, Matemática (_Math_), Leitura (_Reading_) e Escrita (_Writing_), buscando entender os seus perfis, analisando as suas pontuações, e as variáveis que podem ter alguma relação com os seus desempenhos.
 
-## Perguntas respondidas
-* 
+## 📄 **Data source**
+
+O arquivo CSV utilizado está disponível neste repositório e pode ser baixado na plataforma Kaggle a partir do seguinte [_link_](https://www.kaggle.com/datasets/spscientist/students-performance-in-exams). Infelizmente, os dados são fictícios, por isso, foram utilizados apenas com o propósito de praticar.
+
+Todo o projeto foi desenvolvido com Python e com as bibliotecas Pandas, NumPy e Seaborn.
+
+## 📝 **Dataset overview**
+
+* O _dataset_ possui 1000 linhas e 8 colunas.
+* Não há valores nulos ou linhas duplicadas.
+* Possui apenas 2 _dtypes_: _object_ e _int64_.
+* As palavras nos nomes das colunas estão separadas com espaços, é uma boa prática substituirmos por _underscore_.
+* A mediana e a média das notas estão retornando valores muito próximos, não havendo _outliers_ a serem tratados.
+
+# 🔬 **Análise dos dados**
+
+## 📊 **Análise univariada**
