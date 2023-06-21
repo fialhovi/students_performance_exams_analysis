@@ -1,3 +1,5 @@
+![Students Performance Exams](https://github.com/fialhovi/students_performance_exams_analysis/assets/104800356/eba2c8aa-f13d-47fe-8d1d-2150b95f33cf)
+
 # EDA Students performance exams
 
 Esta análise exploratória foi desenvolvida utilizando dados fictícios sobre a performance de 1000 estudantes em três exames, Matemática (Math), Leitura (Reading) e Escrita (Writing). O arquivo CSV está disponível neste repositório e se encontra na plataforma Kaggle a partir do seguinte [link](https://www.kaggle.com/datasets/spscientist/students-performance-in-exams).
