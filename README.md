@@ -4,11 +4,11 @@
 
 ## 🔎 **Sobre o projeto**
 
-O objetivo deste projeto é informar as descobertas feitas durante as análises uni e multivariadas da performance de 1000 estudantes norte-americanos em três exames, Matemática (_Math_), Leitura (_Reading_) e Escrita (_Writing_), buscando entender os seus perfis, analisando as suas pontuações e as variáveis que podem ter alguma relação com os seus desempenhos.
+O objetivo deste projeto é informar as descobertas feitas durante as análises uni e multivariadas da performance de 1000 estudantes em um contexto escolar norte-americano em três exames, Matemática (_Math_), Leitura (_Reading_) e Escrita (_Writing_), buscando entender os seus perfis, analisando as suas pontuações e as variáveis que podem ter alguma relação com os seus desempenhos.
 
 ## 📄 **Data source**
 
-O arquivo CSV utilizado está disponível neste repositório e pode ser baixado na plataforma Kaggle a partir do seguinte [_link_](https://www.kaggle.com/datasets/spscientist/students-performance-in-exams). Infelizmente, os dados são fictícios, não nos permitindo trazer interpretações para a vida real.
+O arquivo CSV utilizado está disponível neste repositório e pode ser baixado na plataforma Kaggle a partir do seguinte [_link_](https://www.kaggle.com/datasets/spscientist/students-performance-in-exams). Infelizmente, os dados são fictícios, não nos permitindo trazer _insights_ para a vida real.
 
 Todo o projeto foi desenvolvido com Python e com as bibliotecas Pandas, NumPy e Seaborn.
 
@@ -17,14 +17,14 @@ Todo o projeto foi desenvolvido com Python e com as bibliotecas Pandas, NumPy e 
 * O _dataset_ possui 1000 linhas e 8 colunas.
 * Não há valores nulos ou linhas duplicadas.
 * Possui apenas 2 _dtypes_: _object_ e _int64_.
-* As palavras nos nomes das colunas vieram separadas por espaços, que foram substituídos por _underscore_.
-* A mediana e a média das notas estão retornando valores muito próximos, o que indica, a princípio, que há poucos ou nenhum _outlier_ a ser tratado.
+* As palavras nos nomes das colunas vieram separadas por espaços e, seguindo boas práticas, foram substituídos por _underscore_.
+* A mediana e a média das notas estão retornando valores muito próximos, o que pode indicar, a princípio, que há poucos ou nenhum _outlier_ a ser tratado.
 
 # **Análise dos dados**
 
 ## 📊 **Análise univariada**
 
-Aqui, vamos analisar cada variável de modo a entendermos quais são as características mais frequentes.
+Aqui, vamos analisar cada variável de modo a entendermos quais são as características com maior e menor frequências.
 
 **1. A nossa amostra contém um número ligeiramente maior (36 a mais) de estudantes mulheres do que de homens**
 
@@ -32,7 +32,7 @@ Aqui, vamos analisar cada variável de modo a entendermos quais são as caracter
 ![gender](https://github.com/fialhovi/students_performance_exams_analysis/assets/104800356/1ae75b30-9808-4ddd-b1e2-48a9408251a4)
 
 
-**2. Para raça/etnia, o grupo C aparece como o mais numeroso, enquanto o grupo A apresenta o menor número de estudantes**
+**2. Para raça/etnia, o grupo C (White - Any other White background) aparece como o mais numeroso, enquanto o grupo A (White - British) apresenta o menor número de estudantes**
 
 
 ![race](https://github.com/fialhovi/students_performance_exams_analysis/assets/104800356/f17da039-e395-4ccf-a22d-503619477e4e)
@@ -50,7 +50,7 @@ Com algumas buscas, descobri qual grupo racial é representado por cada letra:
 
 Também é importante notar que os grupos F e G não aparecem em nossa amostra.
 
-**3. Poucos pais possuem um 'master's degree' (mestrado) ou mesmo um 'bachelor's degree' (bacharelado), enquanto a maioria possui 'some college' (alguma faculdade) ou um 'associate's degree' (diploma). Isso significa que a maior parte dos pais da nossa amostra não investiram tanto tempo em suas educações formais**
+**3. Poucos pais possuem um 'master's degree' (mestrado) ou mesmo um 'bachelor's degree' (bacharelado), enquanto a maioria possui 'some college' (alguma faculdade) ou um 'associate's degree' (diploma). Isso significa que a maior parte dos pais dos estudantes na nossa amostra não tiveram tanto tempo em espaços de educação formal**
 
 ![parents](https://github.com/fialhovi/students_performance_exams_analysis/assets/104800356/bbdee83b-4d87-45a9-a0c6-bea5c1727db3)
 
@@ -62,15 +62,15 @@ Também é importante notar que os grupos F e G não aparecem em nossa amostra.
 
 ![test](https://github.com/fialhovi/students_performance_exams_analysis/assets/104800356/a6b7c0be-f6e7-4794-ac54-43aeac6d7115)
 
-**6. A maior parte das notas de Matemática (_Math_) se concentraram entre 50 e 80, com uma média de 66**
+**6. A maior parte das notas de Matemática (_Math_) estão concentradas entre 50 e 80, com uma média de 66**
 
 ![math](https://github.com/fialhovi/students_performance_exams_analysis/assets/104800356/890c1a03-7745-4c65-b2d0-c03ff69d6535)
 
-**7. A maior parte das notas de Leitura (_Reading_) se concentraram entre 50 e 80, com uma média de 69**
+**7. A maior parte das notas de Leitura (_Reading_) estão concentradas entre 50 e 80, com uma média de 69**
 
 ![reading](https://github.com/fialhovi/students_performance_exams_analysis/assets/104800356/7e01fc17-6d0b-402f-84d7-5072c502a0ab)
 
-**8. A maior parte das notas de Escrita (_Writing_) se concentraram entre 50 e 80, com uma média de 68**
+**8. A maior parte das notas de Escrita (_Writing_) estão concentradas entre 50 e 80, com uma média de 68**
 
 ![writing](https://github.com/fialhovi/students_performance_exams_analysis/assets/104800356/2ca52750-8220-4b39-840b-f96953c39156)
 
