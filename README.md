@@ -76,3 +76,15 @@ Também é importante notar que os grupos F e G não aparecem em nossa amostra.
 
 ## 📈 **Análise multivariada**
 
+**Correlação entre as notas das provas**
+
+![s1](https://github.com/fialhovi/students_performance_exams_analysis/assets/104800356/6a4c8167-64ad-4957-adae-a722788c0358)
+
+As notas de Leitura (_Reading_) e Escrita (_Writing_) apresentaram uma correlação positiva bastante forte (0.95), e Matemática (_Math_) também apresentou uma forte correlação positiva com Leitura (0.82) e Escrita (0.8).
+
+### Aprovação nas disciplinas
+
+De modo geral, as escolas no Brasil adotam uma média de 5 para aprovação nas disciplinas. Aqui, também vou adotar esse sistema para checar a relação entre as demais variáveis e a quantidade de aprovações.
+
+**Quantidade de aprovados nas 3 disciplinas**
+
