@@ -82,21 +82,21 @@ Também é importante notar que os grupos F e G não aparecem em nossa amostra.
 
 As notas de Leitura (_Reading_) e Escrita (_Writing_) apresentaram uma correlação positiva bastante forte (0.95), e Matemática (_Math_) também apresentou uma forte correlação positiva com Leitura (0.82) e Escrita (0.8).
 
-### Aprovação nas disciplinas
+### ✔️ Aprovação nas disciplinas
 
 De modo geral, as escolas no Brasil adotam uma média de 5 para aprovação nas disciplinas. Aqui, também vou adotar esse sistema para checar a relação entre as demais variáveis e a quantidade de aprovações.
 
 **2.2. Quantidade de aprovados nas 3 disciplinas**
 
-O total de alunos aprovados nas 3 disciplinas é: 812.
+O total de estudantes aprovados nas 3 disciplinas é: 812.
 
-Isso representa um percentual bem alto de nossa amostra, com mais de 80% de estudantes aprovados.
+Isso representa um percentual bem alto de nossa amostra, com mais de 80% de aprovados.
 
 **2.3. Aprovação por disciplina**
 
-Em **Matemática**, mais de 85% (865) dos estudantes foram aprovados.
-Em **Leitura**, mais de 90% (910) dos estudantes foram aprovados.
-Em **Escrita**, mais de 88% (886) dos estudantes foram aprovados.
+* Em **Matemática**, mais de 85% (865) dos estudantes foram aprovados.
+* Em **Leitura**, mais de 90% (910) dos estudantes foram aprovados.
+* Em **Escrita**, mais de 88% (886) dos estudantes foram aprovados.
 
 Aqui, podemos observar que todas as disciplinas tiveram uma grande quantidade de estudantes aprovados, variando entre 85 e 90%, aproximadamente.
 
