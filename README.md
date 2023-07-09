@@ -26,13 +26,13 @@ Todo o projeto foi desenvolvido com Python e com as bibliotecas Pandas, NumPy e 
 
 Aqui, vamos analisar cada variável de modo a entendermos quais são as características com maior e menor frequências.
 
-**1. A nossa amostra contém um número ligeiramente maior (36 a mais) de estudantes mulheres do que de homens**
+**1.1. A nossa amostra contém um número ligeiramente maior (36 a mais) de estudantes mulheres do que de homens**
 
 
 ![gender](https://github.com/fialhovi/students_performance_exams_analysis/assets/104800356/1ae75b30-9808-4ddd-b1e2-48a9408251a4)
 
 
-**2. Para raça/etnia, o grupo C (White - Any other White background) aparece como o mais numeroso, enquanto o grupo A (White - British) apresenta o menor número de estudantes**
+**1.2. Para raça/etnia, o grupo C (White - Any other White background) aparece como o mais numeroso, enquanto o grupo A (White - British) apresenta o menor número de estudantes**
 
 
 ![race](https://github.com/fialhovi/students_performance_exams_analysis/assets/104800356/f17da039-e395-4ccf-a22d-503619477e4e)
@@ -50,33 +50,33 @@ Com algumas buscas, descobri qual grupo racial é representado por cada letra:
 
 Também é importante notar que os grupos F e G não aparecem em nossa amostra.
 
-**3. Poucos pais possuem um 'master's degree' (mestrado) ou mesmo um 'bachelor's degree' (bacharelado), enquanto a maioria possui 'some college' (alguma faculdade) ou um 'associate's degree' (diploma). Isso significa que a maior parte dos pais dos estudantes na nossa amostra não tiveram tanto tempo em espaços de educação formal**
+**1.3. Poucos pais possuem um 'master's degree' (mestrado) ou mesmo um 'bachelor's degree' (bacharelado), enquanto a maioria possui 'some college' (alguma faculdade) ou um 'associate's degree' (diploma). Isso significa que a maior parte dos pais dos estudantes na nossa amostra não tiveram tanto tempo em espaços de educação formal**
 
 ![parents](https://github.com/fialhovi/students_performance_exams_analysis/assets/104800356/bbdee83b-4d87-45a9-a0c6-bea5c1727db3)
 
-**4. Mais da metade dos estudantes recebe um almoço normal, mas preocupa analisar que aproximadamente 355 estudantes recebem um almoço reduzido ou sequer almoçam**
+**1.4. Mais da metade dos estudantes recebe um almoço normal, mas preocupa analisar que aproximadamente 355 estudantes recebem um almoço reduzido ou sequer almoçam**
 
 ![lunch](https://github.com/fialhovi/students_performance_exams_analysis/assets/104800356/c031b07d-bc50-4f9f-872e-d4ca9f206c05)
 
-**5. Mais de 60% dos estudantes não realizaram o curso preparatório para o teste**
+**1.5. Mais de 60% dos estudantes não realizaram o curso preparatório para o teste**
 
 ![test](https://github.com/fialhovi/students_performance_exams_analysis/assets/104800356/a6b7c0be-f6e7-4794-ac54-43aeac6d7115)
 
-**6. A maior parte das notas de Matemática (_Math_) estão concentradas entre 50 e 80, com uma média de 66**
+**1.6. A maior parte das notas de Matemática (_Math_) estão concentradas entre 50 e 80, com uma média de 66**
 
 ![math](https://github.com/fialhovi/students_performance_exams_analysis/assets/104800356/890c1a03-7745-4c65-b2d0-c03ff69d6535)
 
-**7. A maior parte das notas de Leitura (_Reading_) estão concentradas entre 50 e 80, com uma média de 69**
+**1.7. A maior parte das notas de Leitura (_Reading_) estão concentradas entre 50 e 80, com uma média de 69**
 
 ![reading](https://github.com/fialhovi/students_performance_exams_analysis/assets/104800356/7e01fc17-6d0b-402f-84d7-5072c502a0ab)
 
-**8. A maior parte das notas de Escrita (_Writing_) estão concentradas entre 50 e 80, com uma média de 68**
+**1.8. A maior parte das notas de Escrita (_Writing_) estão concentradas entre 50 e 80, com uma média de 68**
 
 ![writing](https://github.com/fialhovi/students_performance_exams_analysis/assets/104800356/2ca52750-8220-4b39-840b-f96953c39156)
 
 ## 📈 **Análise multivariada**
 
-**Correlação entre as notas das provas**
+**2.1. Correlação entre as notas das provas**
 
 ![s1](https://github.com/fialhovi/students_performance_exams_analysis/assets/104800356/6a4c8167-64ad-4957-adae-a722788c0358)
 
@@ -86,5 +86,19 @@ As notas de Leitura (_Reading_) e Escrita (_Writing_) apresentaram uma correlaç
 
 De modo geral, as escolas no Brasil adotam uma média de 5 para aprovação nas disciplinas. Aqui, também vou adotar esse sistema para checar a relação entre as demais variáveis e a quantidade de aprovações.
 
-**Quantidade de aprovados nas 3 disciplinas**
+**2.2. Quantidade de aprovados nas 3 disciplinas**
+
+O total de alunos aprovados nas 3 disciplinas é: 812.
+
+Isso representa um percentual bem alto de nossa amostra, com mais de 80% de estudantes aprovados.
+
+**2.3. Aprovação por disciplina**
+
+Em **Matemática**, mais de 85% (865) dos estudantes foram aprovados.
+Em **Leitura**, mais de 90% (910) dos estudantes foram aprovados.
+Em **Escrita**, mais de 88% (886) dos estudantes foram aprovados.
+
+Aqui, podemos observar que todas as disciplinas tiveram uma grande quantidade de estudantes aprovados, variando entre 85 e 90%, aproximadamente.
+
+**2.4. Relação entre aprovação e demais variáveis**
 
