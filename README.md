@@ -10,7 +10,7 @@ O objetivo deste projeto é informar as descobertas feitas durante as análises 
 
 O arquivo CSV utilizado está disponível neste repositório e pode ser baixado na plataforma Kaggle a partir do seguinte [_link_](https://www.kaggle.com/datasets/spscientist/students-performance-in-exams). Infelizmente, os dados são fictícios, não nos permitindo trazer _insights_ para a vida real.
 
-Todo o projeto foi desenvolvido com Python e com as bibliotecas Pandas, NumPy e Seaborn.
+Todo o projeto foi desenvolvido em Python com as bibliotecas Pandas, NumPy e Seaborn.
 
 ## 📝 **Dataset overview**
 
