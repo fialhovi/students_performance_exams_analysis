@@ -102,3 +102,28 @@ Aqui, podemos observar que todas as disciplinas tiveram uma grande quantidade de
 
 **2.4. Relação entre aprovação e demais variáveis**
 
+**2.4.1. Gênero**
+
+De modo geral, tivemos uma quantidade maior de estudantes mulheres aprovadas em relação a estudantes homens.
+
+Matemática foi a única disciplina em que mais estudantes homens foram aprovados do que mulheres, em Escrita, por sua vez, o número de estudantes mulheres aprovadas foi consideravelmente maior.
+
+**2.4.2. Raça/etnia**
+
+Para todas as disciplinas, o Grupo E (Mixed - White and Black African) apresenta uma taxa de aprovação maior do que os outros, o Grupo A (White - British), por outro lado, apresenta a menor.
+
+**2.4.3. Nível de escolaridade dos pais**
+
+Nos casos em que o nível de escolaridade dos pais era mestrado ('master's degree'), houve uma maior taxa de estudantes aprovados para todas as disciplinas, para apenas um ensino médio ('some high school' e 'high school'), por sua vez, houve menor taxa de aprovação. A diferença de taxa de aprovação para esses dois grupos na disciplina Escrita foi a maior (81,1% de ensino médio ('high school') aprovados e 98,3% de mestrado aprovados).
+
+Desse modo, em nossa amostra, podemos perceber que quanto maior o nível de escolaridade dos pais, maior a taxa de aprovação.
+
+**2.4.4. Almoço**
+
+Esta variável parece ser a com maior relação com a aprovação dos estudantes. De modo geral, 88% dos estudantes que tiveram um almoço padrão foram aprovados, enquanto apenas 68,7% dos que tiveram um almoço reduzido ou nenhum foram aprovados. A maior distância entre essas porcentagens, inclusive, foi em Matemática.
+
+Assim, fica evidente a importância de uma boa nutrição dos estudantes para o seu melhor desempenho em sala de aula.
+
+**2.4.5. Curso preparatório para o teste**
+
+De modo geral, os estudantes que completaram o curso apresentaram uma taxa bem maior de aprovação (89,9%) em comparação com os que não realizaram (76,3%). Isso parece apontar para a importância da implementação de mais atividades para o desenvolvimento dos estudantes e consequente aumento de seus desempenhos.
