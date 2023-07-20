@@ -120,10 +120,10 @@ Desse modo, em nossa amostra, podemos perceber que quanto maior o nível de esco
 
 **2.4.4. Almoço**
 
-Esta variável parece ser a com maior relação com a aprovação dos estudantes. De modo geral, 88% dos estudantes que tiveram um almoço padrão foram aprovados, enquanto apenas 68,7% dos que tiveram um almoço reduzido ou nenhum foram aprovados. A maior distância entre essas porcentagens, inclusive, foi em Matemática.
+Esta variável parece ser a com maior relação com a aprovação dos estudantes. De modo geral, 88% dos estudantes que tiveram um almoço padrão foram aprovados em todas as disciplinas, enquanto apenas 68,7% dos que tiveram um almoço reduzido ou nenhum foram aprovados. A maior distância entre essas porcentagens, inclusive, foi em Matemática.
 
-Assim, fica evidente a importância de uma boa nutrição dos estudantes para o seu melhor desempenho em sala de aula.
+Assim, fica evidente a importância de uma boa alimentação dos estudantes para o seu melhor desempenho em sala de aula.
 
 **2.4.5. Curso preparatório para o teste**
 
-De modo geral, os estudantes que completaram o curso apresentaram uma taxa bem maior de aprovação (89,9%) em comparação com os que não realizaram (76,3%). Isso parece apontar para a importância da implementação de mais atividades para o desenvolvimento dos estudantes e consequente aumento de seus desempenhos.
+De modo geral, os estudantes que completaram o curso apresentaram uma taxa bem maior de aprovação (89,9%) em comparação com os que não realizaram (76,3%). Isso parece apontar para a importância da implementação de mais atividades para o desenvolvimento dos estudantes nas competências exigidas nas avaliações e consequente aumento de seus desempenhos.
